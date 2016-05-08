@@ -16,8 +16,9 @@ const ForkCheckerPlugin = require('awesome-typescript-loader').ForkCheckerPlugin
  * Webpack Constants
  */
 const METADATA = {
-  title: 'Angular2 Webpack Starter by @gdi2290 from @AngularClass',
-  baseUrl: '/'
+  title: 'Blood Donation System',
+  baseUrl: '/',
+  apiBaseUrl: 'localhost:3010/api/'
 };
 
 /*

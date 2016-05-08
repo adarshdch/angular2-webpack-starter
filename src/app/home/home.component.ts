@@ -1,6 +1,8 @@
 import {Component} from '@angular/core';
 import {AppState} from '../app.service';
 
+import {Gmap} from '../gmap';
+
 import {Title} from './title';
 import {XLarge} from './x-large';
 
@@ -16,7 +18,8 @@ import {XLarge} from './x-large';
   // We need to tell Angular's compiler which directives are in our template.
   // Doing so will allow Angular to attach our behavior to an element
   directives: [
-    XLarge
+    XLarge,
+    Gmap
   ],
   // We need to tell Angular's compiler which custom pipes are in our template.
   pipes: [ ],
@@ -37,6 +40,7 @@ export class Home {
     console.log('hello `Home` component');
     // this.title.getData().subscribe(data => this.data = data);
   }
+
 
   submitState(value) {
     console.log('submitState', value);

@@ -5,6 +5,7 @@ import {Component, ViewEncapsulation} from '@angular/core';
 import {RouteConfig, Router} from '@angular/router-deprecated';
 
 import {Home} from './home';
+import {Gmap} from './gmap';
 import {AppState} from './app.service';
 import {RouterActive} from './router-active';
 
